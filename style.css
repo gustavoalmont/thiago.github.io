@@ -12,8 +12,6 @@ div#wb-widget div#wb-btn {
     background-color: #4dc247;
     height: 31px;
     width: 30px;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
     overflow: hidden;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
     font-size: 28px;
@@ -22,7 +20,7 @@ div#wb-widget div#wb-btn {
 }
 
 div#wb-widget div#wb-btn a img#wb-icon {
-    width: 65%;
+    width: 100%;
     margin: 5px;
     vertical-align: baseline;
 }
