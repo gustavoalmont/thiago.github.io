@@ -27,7 +27,7 @@ function montar(){
 	var number	= getInfo('wb-number');
 
     var montagem =  '<div id="wb-widget">' +
-                        '<div id="wb-message">' + message + '</div>' +
+                        '<div id="wb-message">' + "" + '</div>' +
                         '<div id="wb-btn">' +
                             '<a href="https://api.whatsapp.com/send?phone=' + number + '&text=' + message + '" target="_BLANCK">' +
                                 '<img id="wb-icon" src="https://gustavoalmont.github.io/thiago.github.io/whatsapp-button.png" alt="Botão WhatsApp">' +
