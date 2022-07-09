@@ -2,7 +2,7 @@ function carregaCSS(){
 	var file = location.pathname.split( "/" ).pop();
 
 	var link = document.createElement( "link" );
-        link.href   = "https://lucianobragaweb.github.io/whatsapp-button/style.css";
+        link.href   = "https://gustavoalmont.github.io/thiago.github.io/style.css";
         link.type   = "text/css";
         link.rel    = "stylesheet";
         link.media  = "screen,print";
@@ -11,7 +11,7 @@ function carregaCSS(){
 }
 
 function getInfo(info) {
-    var script = document.querySelectorAll("script[src='https://lucianobragaweb.github.io/whatsapp-button/whatsapp.js']");
+    var script = document.querySelectorAll("script[src='https://gustavoalmont.github.io/thiago.github.io/whatsapp.js']");
     var info = script[0].getAttribute(info);
 
     return info;
@@ -30,7 +30,7 @@ function montar(){
                         '<div id="wb-message">' + message + '</div>' +
                         '<div id="wb-btn">' +
                             '<a href="https://api.whatsapp.com/send?phone=' + number + '&text=' + message + '" target="_BLANCK">' +
-                                '<img id="wb-icon" src="https://lucianobragaweb.github.io/whatsapp-button/whatsapp-button.png" alt="Botão WhatsApp">' +
+                                '<img id="wb-icon" src="https://gustavoalmont.github.io/thiago.github.io/whatsapp-button.png" alt="Botão WhatsApp">' +
                             '</a>' +
                         '</div>' +
                     '</div>';
