@@ -23,7 +23,6 @@ function getById(id){
 }
 
 function montar(){
-	var message	= getInfo('wb-message');
 	var mensagem_padrao = getInfo('wb-padrao');
 	var number	= getInfo('wb-number');
 
