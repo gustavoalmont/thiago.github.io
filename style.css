@@ -11,8 +11,8 @@ div#wb-widget {
 
 div#wb-widget div#wb-btn {
     border-radius: 50%;
-    height: 151px;
-    width: 151px;
+    height: 100px;
+    width: 100px;
     text-align: center; 
 }
 
